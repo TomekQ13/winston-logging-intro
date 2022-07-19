@@ -1,0 +1,29 @@
+{
+  level: 'warn',
+  message: 'This is an warn log',
+  metadata: { timestamp: '2022-07-06T21:21:55.362Z' }
+}
+{
+  level: 'warn',
+  message: 'HTTP GET /400',
+  metadata: {
+    meta: {
+      req: {
+        url: '/400',
+        headers: {
+          'user-agent': 'vscode-restclient',
+          'accept-encoding': 'gzip, deflate',
+          host: 'localhost:4000',
+          connection: 'close'
+        },
+        method: 'GET',
+        httpVersion: '1.1',
+        originalUrl: '/400',
+        query: {}
+      },
+      res: { statusCode: 400 },
+      responseTime: 8
+    },
+    timestamp: '2022-07-06T21:21:55.374Z'
+  }
+}
